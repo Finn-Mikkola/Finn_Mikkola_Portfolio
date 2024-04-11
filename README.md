@@ -7,4 +7,5 @@ capstone.ipynb was my capstone project in college. My classmates and I worked wi
 
 ETL project was a project I undertook with soe of my fellow jump teamates. Together we set up a ETL pipeline in AWS using s3, lambda, rds, and a ec2 instance to host our findings. More information is available in the read me. It is no longer hosted on aws as we deleted the instances to make room for new ones, but all the code and resources used is in this repository
 
+Pep_one was the first major project my teamates and I took on in the Cognixia Jump Program. We used pandas to load in a dataset with resturant data. We cleaned the data by formatting rows, combinging csvs and yaml files, deleting and adding rows, and removing null values. Then we transfered the data into a sql alchemy database via python and created a simple frontend to perfrom user queries.
 
