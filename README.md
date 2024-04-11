@@ -9,3 +9,4 @@ ETL project was a project I undertook with soe of my fellow jump teamates. Toget
 
 Pep_one was the first major project my teamates and I took on in the Cognixia Jump Program. We used pandas to load in a dataset with resturant data. We cleaned the data by formatting rows, combinging csvs and yaml files, deleting and adding rows, and removing null values. Then we transfered the data into a sql alchemy database via python and created a simple frontend to perfrom user queries.
 
+Scikit is a simple machine learning project that uses linear regression and logistic regression to train and predict the classiv iris data set. It was my first introduction with scikit learn. I also coded my own attempt at simple linear regression to predict gpa values vs hours studied.
