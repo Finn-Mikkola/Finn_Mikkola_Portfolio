@@ -1,1 +1,1 @@
-
+This is a Flask Project that loads in cards from a pokemon API. I chose this topic just because I needed a card api and I thought it would be fun to work with. The app.py script loads in the data, cleans it by dropping some rows I did not need. Creates a database with a few tables such as users and cards. Uses a flask login system so only people who have logged in can access card info. Has a simple way to 'purchase' cards which adds cards to the purchases table. Uses a html interface so users can easily search for cards through various categories via backend sql queries.
