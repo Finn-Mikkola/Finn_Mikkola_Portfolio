@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Pokémon by Type</title>
+</head>
+<body>
+    <h2>Search Pokémon by Type</h2>
+    <form method="POST" action="/search_by_type">
+        <label for="type">Select Pokémon Type:</label>
+        <select id="type" name="type">
+            {% for pokemon_type in pokemon_types %}
+                <option value="{{ pokemon_type }}">{{ pokemon_type }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>

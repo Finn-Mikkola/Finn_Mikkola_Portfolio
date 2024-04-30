@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Pokémon by Price Range</title>
+</head>
+<body>
+    <h2>Search Pokémon by Price Range</h2>
+    <form method="POST" action="/directory/pokemon_price">
+        <label for="min_price">Minimum Price:</label>
+        <input type="number" id="min_price" name="min_price" step="0.01">
+        <br>
+        <label for="max_price">Maximum Price:</label>
+        <input type="number" id="max_price" name="max_price" step="0.01">
+        <br>
+        <input type="submit" value="Search">
+    </form>
+
+    <div id="pokemon_info">
+        <!-- This is where the Pokémon information will be displayed -->
+    </div>
+</body>
+</html>

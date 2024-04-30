@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Pokémon by Rarity</title>
+</head>
+<body>
+    <h2>Search Pokémon by Rarity</h2>
+    <form method="POST" action="/directory/pokemon_rarity">
+        <label for="rarity">Select Pokémon Rarity:</label>
+        <select id="rarity" name="rarity">
+            <option value="Common">Common</option>
+            <option value="Rare Holo GX">Rare Holo GX</option>
+            <option value="Rare">Rare</option>
+            <option value="Uncommon">Uncommon</option>
+            <option value="Rare Holo V">Rare Holo V</option>
+            <option value="Promo">Promo</option>
+            <option value="Rare Holo EX">Rare Holo EX</option>
+            <option value="Rare Ultra">Rare Ultra</option>
+            <!-- Add more options as needed -->
+        </select>
+        <input type="submit" value="Search">
+    </form>
+
+    <div id="pokemon_info">
+        <!-- This is where the Pokémon information will be displayed -->
+    </div>
+</body>
+</html>
